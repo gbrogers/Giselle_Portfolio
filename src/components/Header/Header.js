@@ -8,6 +8,7 @@ export default function Header() {
     <div className={styles.headerContainer}>
       <div className={styles.headerContentContainer}>
         {/* <img src={Picture} alt="Giselle Profile Picture"></img> */}
+        <div className={styles.imagePlaceholder}></div>
         <div className={styles.headerWordsContainer}>
           <h1>Giselle Rogers</h1>
           <p>

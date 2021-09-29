@@ -21,7 +21,7 @@ export default function Nav() {
             Home
           </Link>
           <Link to="/" onClick={() => setNavbarOpen(!navbarOpen)}>
-            Porfolio
+            Portfolio
           </Link>
           <Link to="/" onClick={() => setNavbarOpen(!navbarOpen)}>
             Contact

@@ -1,4 +1,6 @@
 .navigationContainer {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   background-color: rgb(58, 0, 58);
@@ -26,7 +28,7 @@
   cursor: pointer;
 }
 .navList {
-  // margin-top: 10px;
+  padding-top: 57px;
   flex-direction: column;
   align-items: center;
   background-color: #e3d8e7;
