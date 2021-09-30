@@ -1,6 +1,17 @@
 $main-purple: #1e051e;
 $main-purple-header: #1e051e93;
-$light-purple-nav: #e3d8e7a8;
+$light-purple-1: #f7e8fd;
+$light-purple-2: #e0d1e4;
+$light-purple-3: #fdf4ff;
+$light-purple-4: #efe3f1;
 $light-purple: #e3d8e7;
 $header-font: "Roboto", sans-serif;
 $body-font: "Nunito", sans-serif;
+
+.styledBtn {
+  border: 2px solid black;
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}

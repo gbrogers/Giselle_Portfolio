@@ -3,169 +3,64 @@
 h2 {
   font-size: 38px;
 }
-.aboutContainer,
-.skillsContentContainer {
+.aboutContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 10px;
 }
-.aboutContentContainer,
-.skillsContentContainer,
-.educationContentContainer,
-.experienceContentContainer,
-.projectsContentContainer {
+.aboutContentContainer {
   border: 2px dotted $light-purple;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  //   max-width: 700px;
+  background-color: $light-purple-1;
 }
-.aboutContentContainer:hover,
-.skillsContentContainer:hover,
-.educationContentContainer:hover,
-.experienceContentContainer:hover,
-.projectsContentContainer:hover {
+.aboutContentContainer:hover {
   border: 2px dotted $main-purple;
 }
-
 .aboutContentContainer p {
   text-align: center;
   max-width: 650px;
   padding: 20px;
   padding-top: 0;
 }
-.aboutHeader,
-.skillsHeader,
-.educationHeader,
-.experienceHeader,
-.projectHeader {
-  //   text-align: center;
+.aboutHeader {
   color: $main-purple;
 }
-.listedSkills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  div {
-    padding: 20px;
-    // width: 100px;
-    text-align: center;
-  }
-}
-.educationContainer {
-  //   text-align: center;
-  //   min-width: 300px;
-  align-self: flex-start;
-
-  h3 {
-    margin: 0;
-  }
-  h4,
-  p {
-    margin: 10px 0;
-  }
-}
 .experienceEducation {
-  display: flex;
-  flex-direction: column;
-}
-.experienceListed {
-  max-width: 100%;
-  p {
-    margin-top: 0;
-  }
-  h3 {
-    margin-bottom: 5px;
-  }
-}
-.pra {
-  padding-top: 10px;
-  margin-top: 20px;
-  border-top: 1px black solid;
-}
-.uwm {
-  padding-top: 20px;
-  margin-top: 20px;
-  border-top: 1px black solid;
-}
-.projectPlaceholder {
-  width: 250px;
-  height: 175px;
-  background-color: rgb(178, 175, 214);
-  margin: 10px;
-}
-.drinkz,
-.quizzies,
-.mbmh {
   display: flex;
   flex-direction: column;
 }
 
 @media screen and (min-width: 778px) {
   .aboutExperience {
-    max-width: 700px;
+    max-width: 45%;
+    // width: 40%;
+  }
+  aside {
+    max-width: 55%;
   }
   .aboutContainer {
     flex-direction: row;
   }
-
   .aboutContentContainer {
-    margin-right: 0;
-    // max-width: 40vw;
-  }
-  //   .educationContainer {
-  //     display: flex;
-  //   }
-
-  .experienceContentContainer {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 0;
-  }
-  .educationContentContainer {
-    margin-right: 0;
-  }
-  .skillsContentContainer {
-    margin-bottom: 0;
-    max-width: 40vw;
-  }
-  .drinkz,
-  .quizzies,
-  .mbmh {
-    display: flex;
-    flex-direction: row;
-  }
-  .drinkz {
-    flex-direction: row-reverse;
-  }
-
-  .projectLabel {
-    max-width: 200px;
-  }
-  .secondProject {
-    text-align: right;
+    // margin-right: 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .skillsContentContainer {
-    max-width: 70vw;
-  }
   .experienceEducation {
     flex-direction: row;
-    // margin-right: 0;
-    // max-width: 40vw;
+    // max-width: 40%;
   }
-  .educationContentContainer {
-    margin: 0;
-    width: 600px;
+  .aboutExperience {
+    max-width: 40%;
+    // width: 40%;
   }
-  //   .educationContainer {
-  //     flex-direction: column;
-  //   }
-  .experienceContentContainer {
-    margin-right: 20px;
+  aside {
+    max-width: 60%;
   }
 }

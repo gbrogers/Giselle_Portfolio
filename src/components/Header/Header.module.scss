@@ -1,12 +1,14 @@
 @import "../../style.scss";
 h1 {
-  font-size: 52px;
+  font-size: 48px;
   text-align: center;
   margin: 10px 0;
 }
 .headerContainer {
   //add background image
-  background-image: url(../../images/header-background.jpg);
+  // background-image: url(../../images/header-background.jpg);
+  // background-color: $main-purple;
+  background-image: linear-gradient(to top left, $main-purple, $light-purple);
   margin: 0;
   height: 100vh;
   background-repeat: no-repeat;
@@ -16,7 +18,7 @@ h1 {
   position: relative;
 }
 .headerContainer::after {
-  background-color: $main-purple-header;
+  // background-color: $main-purple-header;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -27,11 +29,11 @@ h1 {
   align-items: center;
   width: 100vw;
   justify-content: center;
-  background-color: $light-purple-nav;
+  // background-color: $light-purple-nav;
   padding: 0 auto;
 }
 .headerWordsContainer {
-  color: white;
+  // color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,13 +41,13 @@ h1 {
   p {
     margin-top: 0;
     text-align: center;
-    max-width: 350px;
+    max-width: 375px;
   }
 }
 
 .profilePicture {
-  height: 175px;
-  width: 175px;
+  height: 200px;
+  width: 200px;
   margin-top: 75px;
   border-radius: 50%;
 }

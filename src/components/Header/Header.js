@@ -18,7 +18,7 @@ export default function Header() {
             I am a Web Developer based out of Salt Lake City, UT who is eager to
             bring your next project to life.
           </p>
-          <button>Learn More</button>
+          <button className={styles.styledBtn}>Learn More</button>
         </div>
       </div>
     </div>

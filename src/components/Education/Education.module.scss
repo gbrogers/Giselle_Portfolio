@@ -1,0 +1,45 @@
+@import "../../style.scss";
+
+h2 {
+  font-size: 38px;
+}
+.educationContentContainer {
+  border: 2px dotted $light-purple;
+  background-color: $light-purple-3;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.educationContentContainer:hover {
+  border: 2px dotted $main-purple;
+}
+.educationHeader {
+  color: $main-purple;
+}
+
+.educationContainer {
+  align-self: flex-start;
+
+  h3 {
+    margin: 0;
+  }
+  h4,
+  p {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (min-width: 778px) {
+  .educationContentContainer {
+    // margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .educationContentContainer {
+    // margin: 0;
+    width: 600px;
+  }
+}

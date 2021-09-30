@@ -2,4 +2,106 @@
 .footerContainer {
   background-color: $light-purple;
   margin-top: 20px;
+  padding: 40px;
+}
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  padding: 15px 0;
+  border-top: 2px black solid;
+  padding-top: 25px;
+  margin-top: 20px;
+}
+.contactIcon {
+  width: 30px;
+}
+.socialIcons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.singleSocialIcon {
+  width: 50px;
+}
+.githubIcon {
+  width: 70px;
+}
+.footerContentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+}
+.singleContactItem {
+  display: flex;
+  // flex-direction: column;
+  align-items: center;
+  margin: 15px 0;
+  h4 {
+    margin: 0 0 0 15px;
+  }
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  // align-items: flex-start;
+  width: 50%;
+  min-width: 300px;
+  h2 {
+    align-self: center;
+    margin: 0;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+}
+.singleInput {
+  display: flex;
+  flex-direction: column;
+}
+.nameEmail {
+  display: flex;
+  // justify-content: space-between;
+  width: 95%;
+  input {
+    width: 75%;
+    border: none;
+  }
+}
+.singleInput:nth-child(1) {
+  margin-right: 40px;
+}
+
+.footerContainer {
+  textarea {
+    height: 200px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+  }
+  input {
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+  }
+  label {
+    margin: 15px 0 5px 0;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .footerContentContainer {
+    flex-direction: row;
+  }
+  .contactContainer {
+    border-left: 2px black solid;
+    padding-left: 25px;
+    margin-left: 20px;
+    border-top: none;
+    padding-top: 0;
+    margin-top: 75px;
+  }
 }

@@ -1,0 +1,59 @@
+@import "../../style.scss";
+
+h2 {
+  font-size: 38px;
+}
+.skillIcon {
+  width: 25px;
+  img {
+    object-fit: contain !important;
+  }
+}
+.skillIcon:hover {
+  transform: scale(1.2);
+}
+.skillsContentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skillsContentContainer {
+  border: 2px dotted $light-purple;
+  background-color: $light-purple-2;
+  margin: 20px 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //   max-width: 700px;
+}
+.skillsContentContainer:hover {
+  border: 2px dotted $main-purple;
+}
+.skillsHeader {
+  //   text-align: center;
+  color: $main-purple;
+}
+.listedSkills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  div {
+    padding: 20px;
+    // width: 100px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 778px) {
+  .skillsContentContainer {
+    // margin-bottom: 0;
+    // max-width: 40vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .skillsContentContainer {
+    // max-width: 70vw;
+  }
+}

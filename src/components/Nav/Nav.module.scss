@@ -5,8 +5,7 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  background-color: $light-purple;
-  // height: 60px;
+  background-color: $main-purple;
   align-items: center;
   z-index: 1000;
 }
@@ -17,7 +16,7 @@
   a {
     margin-left: 20px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 700;
   }
 }
@@ -34,11 +33,16 @@
 .navList {
   padding-top: 57px;
   flex-direction: column;
-  align-items: center;
-  background-color: #e3d8e7;
+  justify-content: center;
+  background-color: $light-purple;
+
   a {
     text-decoration: none;
     padding: 10px;
+    font-size: 1.5em;
+    border-bottom: 1px solid $main-purple;
+    text-align: center;
+    color: $main-purple;
   }
 }
 

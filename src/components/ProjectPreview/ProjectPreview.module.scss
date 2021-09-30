@@ -1,0 +1,56 @@
+@import "../../style.scss";
+
+h2 {
+  font-size: 38px;
+}
+
+.projectsContentContainer {
+  border: 2px dotted $light-purple;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $light-purple-3;
+}
+
+.projectsContentContainer:hover {
+  border: 2px dotted $main-purple;
+}
+.projectHeader {
+  color: $main-purple;
+}
+.projectPlaceholder {
+  width: 250px;
+  height: 175px;
+  background-color: rgb(178, 175, 214);
+  margin: 10px;
+}
+.drinkz,
+.quizzies,
+.mbmh {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 778px) {
+  .drinkz,
+  .quizzies,
+  .mbmh {
+    display: flex;
+    flex-direction: row;
+  }
+  .drinkz {
+    flex-direction: row-reverse;
+  }
+
+  .projectLabel {
+    max-width: 200px;
+  }
+  .secondProject {
+    text-align: right;
+  }
+  .projectsContentContainer {
+    // max-width: 40%;
+  }
+}
