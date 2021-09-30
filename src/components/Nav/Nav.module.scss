@@ -1,11 +1,14 @@
+@import "../../style.scss";
+
 .navigationContainer {
   position: fixed;
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  background-color: rgb(58, 0, 58);
+  background-color: $light-purple;
   // height: 60px;
   align-items: center;
+  z-index: 1000;
 }
 
 .navLinks {
@@ -14,7 +17,8 @@
   a {
     margin-left: 20px;
     text-decoration: none;
-    color: white;
+    color: black;
+    font-weight: 700;
   }
 }
 .hamburger {

@@ -1,3 +1,8 @@
+@import "../../style.scss";
+
+h2 {
+  font-size: 38px;
+}
 .aboutContainer,
 .skillsContentContainer {
   display: flex;
@@ -9,7 +14,7 @@
 .educationContentContainer,
 .experienceContentContainer,
 .projectsContentContainer {
-  border: 2px dotted purple;
+  border: 2px dotted $light-purple;
   margin: 20px;
   padding: 20px;
   display: flex;
@@ -17,6 +22,14 @@
   align-items: center;
   //   max-width: 700px;
 }
+.aboutContentContainer:hover,
+.skillsContentContainer:hover,
+.educationContentContainer:hover,
+.experienceContentContainer:hover,
+.projectsContentContainer:hover {
+  border: 2px dotted $main-purple;
+}
+
 .aboutContentContainer p {
   text-align: center;
   max-width: 650px;
@@ -29,7 +42,7 @@
 .experienceHeader,
 .projectHeader {
   //   text-align: center;
-  color: hotpink;
+  color: $main-purple;
 }
 .listedSkills {
   display: flex;
@@ -44,6 +57,7 @@
 .educationContainer {
   //   text-align: center;
   //   min-width: 300px;
+  align-self: flex-start;
 
   h3 {
     margin: 0;
@@ -128,6 +142,9 @@
   }
 
   .projectLabel {
+    max-width: 200px;
+  }
+  .secondProject {
     text-align: right;
   }
 }

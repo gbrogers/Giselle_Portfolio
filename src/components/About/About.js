@@ -2,7 +2,7 @@ import * as styles from "./About.module.scss";
 import * as React from "react";
 import { useState } from "react";
 
-export default function Header() {
+export default function About() {
   const [seeMore, setSeeMore] = useState(false);
   return (
     <div className={styles.aboutContainer}>
@@ -158,21 +158,21 @@ export default function Header() {
           <div className={styles.projectsList}>
             <div className={styles.mbmh}>
               <div className={styles.projectPlaceholder}></div>
-              <div>
+              <div className={styles.projectLabel}>
                 <h3>My Body My Health</h3>
                 <p>These are words describing this particular project</p>
               </div>
             </div>
             <div className={styles.drinkz}>
               <div className={styles.projectPlaceholder}></div>
-              <div className={styles.projectLabel}>
+              <div className={`${styles.projectLabel} ${styles.secondProject}`}>
                 <h3>Drinkz!</h3>
                 <p>These are words describing this particular project</p>
               </div>
             </div>
             <div className={styles.quizzies}>
               <div className={styles.projectPlaceholder}></div>
-              <div>
+              <div className={styles.projectLabel}>
                 <h3>Quizzies</h3>
                 <p>These are words describing this particular project</p>
               </div>

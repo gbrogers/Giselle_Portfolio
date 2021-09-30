@@ -38,7 +38,7 @@ export default function Footer() {
       <div className={styles.contactContainer}>
         <div className={styles.contactIcons}>
           <div className={styles.singleContactItem}>
-            <img class="contact-icon" src="" alt="location icon" />
+            <img className={styles.contactIcon} src="" alt="location icon" />
             <h4>
               <strong>Location</strong>
               <br />

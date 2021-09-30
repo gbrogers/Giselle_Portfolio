@@ -1,10 +1,25 @@
+@import "../../style.scss";
+h1 {
+  font-size: 52px;
+  text-align: center;
+  margin: 10px 0;
+}
 .headerContainer {
   //add background image
-  background-color: rgb(170, 39, 170);
+  background-image: url(../../images/header-background.jpg);
   margin: 0;
   height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
+  position: relative;
+}
+.headerContainer::after {
+  background-color: $main-purple-header;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .headerContentContainer {
   display: flex;
@@ -12,27 +27,30 @@
   align-items: center;
   width: 100vw;
   justify-content: center;
+  background-color: $light-purple-nav;
+  padding: 0 auto;
 }
 .headerWordsContainer {
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
   p {
     margin-top: 0;
     text-align: center;
-    max-width: 300px;
+    max-width: 350px;
   }
 }
 
-.imagePlaceholder {
-  background-color: beige;
-  height: 225px;
-  width: 200px;
+.profilePicture {
+  height: 175px;
+  width: 175px;
+  margin-top: 75px;
+  border-radius: 50%;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 675px) {
   .headerContentContainer {
     flex-direction: row;
     padding: 50px;
@@ -50,5 +68,8 @@
       //   margin-top: 0;
       text-align: justify;
     }
+  }
+  .profilePicture {
+    margin-top: 0;
   }
 }

@@ -1,19 +1,29 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Giselle Rogers Portfolio`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Giselle Rogers`,
+      summary: `Full stack software developer`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Giselle's Software Developer Portfolio.`,
+    siteUrl: `http://localhost:8000`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `na`,
     },
   },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Roboto", "Nunito"],
+        },
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -1,14 +1,17 @@
 import * as styles from "./Header.module.scss";
 import * as React from "react";
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 // import * as Picture from "../../images/profilePic.JPG";
 
 export default function Header() {
   return (
     <div className={styles.headerContainer}>
       <div className={styles.headerContentContainer}>
-        {/* <img src={Picture} alt="Giselle Profile Picture"></img> */}
-        <div className={styles.imagePlaceholder}></div>
+        <StaticImage
+          className={styles.profilePicture}
+          src="../../images/profilePic.JPG"
+        ></StaticImage>
         <div className={styles.headerWordsContainer}>
           <h1>Giselle Rogers</h1>
           <p>
