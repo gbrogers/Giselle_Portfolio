@@ -2,7 +2,7 @@
 .footerContainer {
   background-color: $light-purple;
   margin-top: 20px;
-  padding: 40px;
+  padding: 30px;
 }
 .contactContainer {
   display: flex;
@@ -45,10 +45,10 @@
 .contactForm {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  // padding: 20px;
   // align-items: flex-start;
-  width: 50%;
-  min-width: 300px;
+  // width: 50%;
+  // min-width: 300px;
   h2 {
     align-self: center;
     margin: 0;
@@ -67,6 +67,9 @@
   input {
     width: 75%;
     border: none;
+  }
+  .singleInput {
+    width: 50%;
   }
 }
 .singleInput:nth-child(1) {

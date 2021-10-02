@@ -22,18 +22,35 @@ h2 {
 }
 .projectPlaceholder {
   width: 250px;
-  height: 175px;
+  min-width: 250px;
+  // height: 175px;
   background-color: rgb(178, 175, 214);
-  margin: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 4px rgb(161, 161, 161);
+}
+.quizzies .projectPlaceholder {
+  width: 250px;
+  height: 147px;
 }
 .drinkz,
 .quizzies,
 .mbmh {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.projectLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+  h3 {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
 }
 
-@media screen and (min-width: 778px) {
+@media screen and (min-width: 925px) {
   .drinkz,
   .quizzies,
   .mbmh {
@@ -46,8 +63,11 @@ h2 {
 
   .projectLabel {
     max-width: 200px;
+
+    align-items: flex-start;
   }
   .secondProject {
+    align-items: flex-end;
     text-align: right;
   }
   .projectsContentContainer {
