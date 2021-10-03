@@ -1,6 +1,7 @@
 import * as styles from "./ProjectPreview.module.scss";
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
 export default function ProjectPreview() {
   return (
@@ -16,11 +17,13 @@ export default function ProjectPreview() {
           <div className={styles.projectLabel}>
             <h3>My Body My Health</h3>
             <p>These are words describing this particular project</p>
-            <button
-              className={`${styles.projectSeeMoreBtn} ${styles.styledBtn}`}
-            >
-              See More
-            </button>
+            <Link to="/Projects">
+              <button
+                className={`${styles.projectSeeMoreBtn} ${styles.styledBtn}`}
+              >
+                See More
+              </button>
+            </Link>
           </div>
         </div>
         <div className={styles.drinkz}>
@@ -32,11 +35,13 @@ export default function ProjectPreview() {
           <div className={`${styles.projectLabel} ${styles.secondProject}`}>
             <h3>Drinkz!</h3>
             <p>These are words describing this particular project</p>
-            <button
-              className={`${styles.projectSeeMoreBtn} ${styles.styledBtn}`}
-            >
-              See More
-            </button>
+            <Link to="/Projects">
+              <button
+                className={`${styles.projectSeeMoreBtn} ${styles.styledBtn}`}
+              >
+                See More
+              </button>
+            </Link>
           </div>
         </div>
         <div className={styles.quizzies}>
@@ -48,11 +53,13 @@ export default function ProjectPreview() {
           <div className={styles.projectLabel}>
             <h3>Quizzies</h3>
             <p>These are words describing this particular project</p>
-            <button
-              className={`${styles.projectSeeMoreBtn} ${styles.styledBtn}`}
-            >
-              See More
-            </button>
+            <Link to="/Projects">
+              <button
+                className={`${styles.projectSeeMoreBtn} ${styles.styledBtn}`}
+              >
+                See More
+              </button>
+            </Link>
           </div>
         </div>
       </div>

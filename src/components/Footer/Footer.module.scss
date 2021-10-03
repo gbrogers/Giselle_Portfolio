@@ -94,6 +94,15 @@
     margin: 15px 0 5px 0;
   }
 }
+.submitFormBtn {
+  margin-top: 15px;
+}
+
+.submitFormBtn:hover,
+.submitFormBtn:focus {
+  box-shadow: inset 30em 0 0 0 $main-purple;
+  color: white;
+}
 
 @media screen and (min-width: 700px) {
   .footerContentContainer {
@@ -101,8 +110,8 @@
   }
   .contactContainer {
     border-left: 2px black solid;
-    padding-left: 25px;
-    margin-left: 20px;
+    padding-left: 5%;
+    margin-left: 5%;
     border-top: none;
     padding-top: 0;
     margin-top: 75px;

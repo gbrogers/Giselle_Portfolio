@@ -1,7 +1,6 @@
-import { StaticImage } from "gatsby-plugin-image";
-import * as React from "react";
 import * as styles from "./SingleProject.module.scss";
-// import { StaticImage } from "gatsby-plugin-image";
+import * as React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default function SingleProject({ title, description, tech, image }) {
   return (

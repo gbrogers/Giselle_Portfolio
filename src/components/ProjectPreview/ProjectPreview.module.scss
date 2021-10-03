@@ -27,7 +27,12 @@ h2 {
   background-color: rgb(178, 175, 214);
   margin: 20px;
   box-shadow: 2px 2px 4px rgb(161, 161, 161);
+  transition: 1s;
 }
+.projectPlaceholder:hover {
+  transform: rotateZ(5deg);
+}
+
 .quizzies .projectPlaceholder {
   width: 250px;
   height: 147px;
@@ -39,6 +44,7 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
+
 .projectLabel {
   display: flex;
   flex-direction: column;
@@ -47,6 +53,11 @@ h2 {
   h3 {
     margin-bottom: 0;
     font-size: 20px;
+  }
+  .projectSeeMoreBtn:hover,
+  .projectSeeMoreBtn:focus {
+    box-shadow: inset 8em 0 0 0 $main-purple;
+    color: white;
   }
 }
 

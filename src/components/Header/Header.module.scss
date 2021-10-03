@@ -6,9 +6,9 @@ h1 {
 }
 .headerContainer {
   //add background image
-  // background-image: url(../../images/header-background.jpg);
+  background-image: url(../../images/header-background.jpg);
   // background-color: $main-purple;
-  background-image: linear-gradient(to top left, $main-purple, $light-purple);
+  // background-image: linear-gradient(to top left, $main-purple, $light-purple);
   margin: 0;
   height: 100vh;
   background-repeat: no-repeat;
@@ -16,13 +16,17 @@ h1 {
   display: flex;
   align-items: center;
   position: relative;
+  button {
+    color: white;
+    border-color: white;
+  }
 }
-.headerContainer::after {
-  // background-color: $main-purple-header;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
+// .headerContainer::after {
+//   // background-color: $main-purple-header;
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+// }
 .headerContentContainer {
   display: flex;
   flex-direction: column;
@@ -31,6 +35,7 @@ h1 {
   justify-content: center;
   // background-color: $light-purple-nav;
   padding: 0 auto;
+  color: white;
 }
 .headerWordsContainer {
   // color: white;

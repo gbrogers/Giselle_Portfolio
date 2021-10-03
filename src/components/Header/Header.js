@@ -3,6 +3,7 @@ import * as React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 // import * as Picture from "../../images/profilePic.JPG";
+import About from "../About/About";
 
 export default function Header() {
   return (
@@ -18,7 +19,9 @@ export default function Header() {
             I am a Web Developer based out of Salt Lake City, UT who is eager to
             bring your next project to life.
           </p>
-          <button className={styles.styledBtn}>Learn More</button>
+          <button className={styles.styledBtn} href="About.aboutContainer">
+            Learn More
+          </button>
         </div>
       </div>
     </div>
