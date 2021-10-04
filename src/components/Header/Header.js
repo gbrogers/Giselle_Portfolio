@@ -1,14 +1,6 @@
 import * as styles from "./Header.module.scss";
 import * as React from "react";
-import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
-// import * as Picture from "../../images/profilePic.JPG";
-import About from "../About/About";
-
-// const Scroll = React.forwardRef(({onBackClick}, ref)=>{
-//   return(<div><h1 ref={ref}>Button Ref</h1></div>)
-
-// }
 
 export default function Header() {
   return (
@@ -18,6 +10,7 @@ export default function Header() {
           <StaticImage
             className={styles.profilePicture}
             src="../../images/profilePic.JPG"
+            alt="profile photo"
           ></StaticImage>
           <div className={styles.headerWordsContainer}>
             <h1>Giselle Rogers</h1>

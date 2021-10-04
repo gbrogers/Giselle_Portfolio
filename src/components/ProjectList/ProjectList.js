@@ -1,9 +1,9 @@
 import * as React from "react";
-import * as styles from "./ProjectList.module.scss";
 import { StaticQuery, graphql } from "gatsby";
 import SingleProject from "../SingleProject/SingleProject";
+import { getImage } from "gatsby-plugin-image";
 
-export default () => (
+export default SingleProject = () => (
   <StaticQuery
     query={graphql`
       query MyQuery {
@@ -11,10 +11,10 @@ export default () => (
           edges {
             node {
               frontmatter {
-                description
-                projecttech
+                Image01
                 title
-                image
+                projecttech
+                description
               }
             }
           }
@@ -29,7 +29,7 @@ export default () => (
               description={node.frontmatter.description}
               title={node.frontmatter.title}
               tech={node.frontmatter.projecttech}
-              image={node.frontmatter.image}
+              image={getImage(node.frontmatter.Image01)}
             />
           );
         })}

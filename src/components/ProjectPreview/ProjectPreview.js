@@ -1,7 +1,7 @@
 import * as styles from "./ProjectPreview.module.scss";
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import { Link } from "gatsby";
+import { Link, navigate } from "gatsby";
 
 export default function ProjectPreview() {
   return (
@@ -10,6 +10,7 @@ export default function ProjectPreview() {
       <div className={styles.projectsList}>
         <div className={styles.mbmh}>
           <StaticImage
+            onClick={() => navigate("/Projects")}
             className={styles.projectPlaceholder}
             src="../../images/mbmh_home.PNG"
             alt="My Body My Health Image"
@@ -28,6 +29,7 @@ export default function ProjectPreview() {
         </div>
         <div className={styles.drinkz}>
           <StaticImage
+            onClick={() => navigate("/Projects")}
             className={styles.projectPlaceholder}
             src="../../images/Drinkz_home.PNG"
             alt="Drinkz! Image"
@@ -46,6 +48,7 @@ export default function ProjectPreview() {
         </div>
         <div className={styles.quizzies}>
           <StaticImage
+            onClick={() => navigate("/Projects")}
             className={styles.projectPlaceholder}
             src="../../images/Quizzies_4right.PNG"
             alt="Quizzies Image"
