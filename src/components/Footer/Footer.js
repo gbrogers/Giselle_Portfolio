@@ -11,7 +11,7 @@ export default function Footer() {
           method="POST"
           className={styles.contactForm}
         >
-          <h2 className={styles.footerHeader}>Let's Get In Touch!</h2>
+          <h2>Let's Get In Touch!</h2>
           <div className={styles.nameEmail}>
             <div className={styles.singleInput}>
               <label>Name: </label>
@@ -39,17 +39,21 @@ export default function Footer() {
           </button>
         </form>
         <div className={styles.contactContainer}>
-          <div className={styles.contactIcons}>
+          <div>
             <div className={styles.singleContactItem}>
               <StaticImage
                 className={styles.contactIcon}
                 src="../../images/locationsvg.png"
                 alt="location icon"
+                loading="eager"
+                placeholder="blurred"
               ></StaticImage>
-              <h4>
-                <strong>Location</strong>
+              <div className={styles.contactLabel}>
+                <h4>
+                  <strong>Location</strong>
+                </h4>
                 <p>Salt Lake City, UT</p>
-              </h4>
+              </div>
             </div>
 
             <div className={styles.singleContactItem}>
@@ -58,13 +62,16 @@ export default function Footer() {
                   className={styles.contactIcon}
                   src="../../images/email.png"
                   alt="email icon"
+                  loading="eager"
+                  placeholder="blurred"
                 ></StaticImage>
               </a>
-              <h4>
-                <strong>Email</strong>
-                <br />
-                giselle.b.rogers@gmail.com
-              </h4>
+              <div className={styles.contactLabel}>
+                <h4>
+                  <strong>Email</strong>
+                </h4>
+                <p>giselle.b.rogers@gmail.com</p>
+              </div>
             </div>
 
             <div className={styles.singleContactItem}>
@@ -72,12 +79,15 @@ export default function Footer() {
                 className={styles.contactIcon}
                 src="../../images/phone.png"
                 alt="phone icon"
+                loading="eager"
+                placeholder="blurred"
               ></StaticImage>
-              <h4>
-                <strong>Phone</strong>
-                <br />
-                (801) 441-0981
-              </h4>
+              <div className={styles.contactLabel}>
+                <h4>
+                  <strong>Phone</strong>
+                </h4>
+                <p>(801) 441-0981</p>
+              </div>
             </div>
           </div>
           <div className={styles.socialIcons}>
@@ -86,13 +96,17 @@ export default function Footer() {
                 className={styles.singleSocialIcon}
                 src="../../images/linkedin.png"
                 alt="linkedIn icon"
+                loading="eager"
+                placeholder="blurred"
               ></StaticImage>
             </a>
             <a href="https://github.com/gbrogers" target="_blank">
               <StaticImage
                 className={`${styles.singleSocialIcon} ${styles.githubIcon}`}
                 src="../../images/github.png"
-                alt="email icon"
+                alt="github icon"
+                loading="eager"
+                placeholder="blurred"
               ></StaticImage>
             </a>
 
@@ -101,6 +115,8 @@ export default function Footer() {
                 className={styles.singleSocialIcon}
                 src="../../images/email.png"
                 alt="email icon"
+                loading="eager"
+                placeholder="blurred"
               ></StaticImage>
             </a>
           </div>

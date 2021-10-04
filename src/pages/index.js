@@ -4,7 +4,6 @@ import Header from "../components/Header/Header";
 import About from "../components/About/About";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-// import { getSizes } from "gatsby-plugin-image/dist/src/image-utils"
 
 const Index = ({ data, location }) => {
   return (
@@ -19,26 +18,3 @@ const Index = ({ data, location }) => {
 };
 
 export default Index;
-
-// export const pageQuery = graphql`
-//   query {
-//     site {
-//       siteMetadata {
-//         title
-//       }
-//     }
-//     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-//       nodes {
-//         excerpt
-//         fields {
-//           slug
-//         }
-//         frontmatter {
-//           date(formatString: "MMMM DD, YYYY")
-//           title
-//           description
-//         }
-//       }
-//     }
-//   }
-// `;

@@ -1,12 +1,10 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "giselle-portfolio",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Giselle's Software Development Profile",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Giselle Rogers <giselle.b.rogers@gmail.com>",
+
   "dependencies": {
     "gatsby": "^3.13.1",
     "gatsby-plugin-feed": "^3.13.0",
@@ -38,7 +36,7 @@
   "devDependencies": {
     "prettier": "2.4.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+
   "keywords": [
     "gatsby"
   ],
@@ -46,7 +44,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/gbrogers/Giselle_Portfolio"
   },
   "scripts": {
     "build": "gatsby build",

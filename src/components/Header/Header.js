@@ -11,6 +11,7 @@ export default function Header() {
             className={styles.profilePicture}
             src="../../images/profilePic.JPG"
             alt="profile photo"
+            loading="eager"
           ></StaticImage>
           <div className={styles.headerWordsContainer}>
             <h1>Giselle Rogers</h1>
@@ -24,7 +25,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div id="AboutMe" className={styles.scrollhere}></div>
+      <div id="AboutMe"></div>
     </div>
   );
 }

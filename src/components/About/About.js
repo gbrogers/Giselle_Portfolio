@@ -33,7 +33,7 @@ export default function About() {
         </section>
         <Skills />
       </section>
-      <aside className={styles.skillsProjects}>
+      <aside>
         <ProjectPreview />
         <section className={styles.experienceEducation}>
           <Experience />

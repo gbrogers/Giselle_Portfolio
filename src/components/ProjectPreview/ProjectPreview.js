@@ -7,13 +7,15 @@ export default function ProjectPreview() {
   return (
     <section className={styles.projectsContentContainer}>
       <h2 className={styles.projectHeader}>Projects</h2>
-      <div className={styles.projectsList}>
+      <div c>
         <div className={styles.mbmh}>
           <StaticImage
             onClick={() => navigate("/Projects")}
             className={styles.projectPlaceholder}
             src="../../images/mbmh_home.PNG"
             alt="My Body My Health Image"
+            loading="eager"
+            placeholder="blurred"
           ></StaticImage>
           <div className={styles.projectLabel}>
             <h3>My Body My Health</h3>
@@ -33,6 +35,8 @@ export default function ProjectPreview() {
             className={styles.projectPlaceholder}
             src="../../images/Drinkz_home.PNG"
             alt="Drinkz! Image"
+            loading="eager"
+            placeholder="blurred"
           ></StaticImage>
           <div className={`${styles.projectLabel} ${styles.secondProject}`}>
             <h3>Drinkz!</h3>
@@ -52,6 +56,8 @@ export default function ProjectPreview() {
             className={styles.projectPlaceholder}
             src="../../images/Quizzies_4right.PNG"
             alt="Quizzies Image"
+            loading="eager"
+            placeholder="blurred"
           ></StaticImage>
           <div className={styles.projectLabel}>
             <h3>Quizzies</h3>

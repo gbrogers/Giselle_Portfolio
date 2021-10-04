@@ -19,7 +19,7 @@ export default function Education() {
           </h4>
           <p>Accelerated Software Engineering Program</p>
         </section>
-        <section className={styles.uwm}>
+        <section>
           <StaticImage
             className={styles.educationLogo}
             src="../../images/uwm.png"
