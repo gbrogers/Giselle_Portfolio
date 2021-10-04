@@ -1,3 +1,67 @@
+@import "../../style.scss";
+
+.projectPageContainer {
+  padding: 70px 0 0 0;
+}
+.projectHeader {
+  color: $main-purple;
+  text-align: center;
+  // font-size: 40px;
+}
+.projectTitle {
+  // text-align: center;
+  margin: 10px 0 15px 0;
+}
 .singleProjectPageContainer {
-  background-color: violet;
+  background-color: $light-purple-1;
+  margin: 20px;
+  padding: 30px;
+  border: 2px dotted $main-purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.projectPhoto {
+  min-width: 300px;
+  // margin-top: 20px;
+  box-shadow: 2px 2px 4px rgb(161, 161, 161);
+  img {
+    object-fit: contain !important;
+  }
+}
+.singleProjectLabel {
+  // background-color: rgba(255, 255, 255, 0.219);
+  padding: 0 20px;
+  margin: 0 20px;
+  max-width: 70%;
+  text-align: center;
+  // display: flex;
+  // flex-direction: column;
+}
+.projectLinks a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid $main-purple;
+  border-radius: 5px;
+  color: $main-purple;
+  margin-right: 15px;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+.projectLinks a:hover {
+  background-color: $main-purple;
+  color: white;
+}
+.projectLinks {
+  padding: 15px 0;
+}
+@media screen and (min-width: 900px) {
+  .singleProjectPageContainer {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .singleProjectLabel {
+    text-align: justify;
+  }
 }
