@@ -19,7 +19,10 @@ export default function ProjectPreview() {
           ></StaticImage>
           <div className={styles.projectLabel}>
             <h3>My Body My Health</h3>
-            <p>These are words describing this particular project</p>
+            <p>
+              Assists users in tracking menstruation and contraceptive use, as
+              well as generates verified health resources.
+            </p>
             <Link to="/Projects">
               <button
                 className={`${styles.projectSeeMoreBtn} ${styles.styledBtn}`}
@@ -40,7 +43,7 @@ export default function ProjectPreview() {
           ></StaticImage>
           <div className={`${styles.projectLabel} ${styles.secondProject}`}>
             <h3>Drinkz!</h3>
-            <p>These are words describing this particular project</p>
+            <p>Generates drink recipes based on user inputted data.</p>
             <Link to="/Projects">
               <button
                 className={`${styles.projectSeeMoreBtn} ${styles.styledBtn}`}
@@ -61,7 +64,10 @@ export default function ProjectPreview() {
           ></StaticImage>
           <div className={styles.projectLabel}>
             <h3>Quizzies</h3>
-            <p>These are words describing this particular project</p>
+            <p>
+              Generates quiz questions based on user inputted difficulty,
+              category, and length.
+            </p>
             <Link to="/Projects">
               <button
                 className={`${styles.projectSeeMoreBtn} ${styles.styledBtn}`}
