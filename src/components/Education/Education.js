@@ -1,5 +1,6 @@
 import * as styles from "./Education.module.scss";
 import * as React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default function Education() {
   return (
@@ -7,6 +8,10 @@ export default function Education() {
       <h2 className={styles.educationHeader}>Education</h2>
       <div className={styles.educationContainer}>
         <section id="devm">
+          <StaticImage
+            className={styles.educationLogo}
+            src="../../images/devmountain.png"
+          ></StaticImage>
           <h3>Devmountain</h3>
           <h4>
             <em>Graduated September 2021</em>
@@ -14,6 +19,10 @@ export default function Education() {
           <p>Accelerated Software Engineering Program</p>
         </section>
         <section className={styles.uwm}>
+          <StaticImage
+            className={styles.educationLogo}
+            src="../../images/uwm.png"
+          ></StaticImage>
           <h3>University of Wisconsin - Madison</h3>
           <h4>
             <em>Graduated May 2018</em>

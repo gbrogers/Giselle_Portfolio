@@ -8,10 +8,19 @@ h2 {
   border: 2px dotted $light-purple;
   background-color: $light-purple-1;
   margin: 10px;
-  padding: 20px;
+  padding: 20px 20px 30px 20px;
+  // padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  .resumeBtn {
+    margin-top: 10px;
+  }
+  .resumeBtn:hover,
+  .resumeBtn:focus {
+    box-shadow: inset 12em 0 0 0 $main-purple;
+    color: white;
+  }
 }
 
 .experienceContentContainer:hover {

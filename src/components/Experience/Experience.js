@@ -1,6 +1,7 @@
 import * as styles from "./Experience.module.scss";
 import * as React from "react";
 import { useState } from "react";
+import { Link } from "gatsby";
 
 export default function Experience() {
   const [seeMore, setSeeMore] = useState(false);
@@ -93,7 +94,14 @@ export default function Experience() {
             </li>
           </ul>
         </section>
-        <button className={styles.styledBtn}>See Full Resume</button>
+        <Link
+          to="https://docs.google.com/document/d/1mOj6jcAJPKiGVtMR8Jsn_2Z6y_5mVzF9bxbC_yJjMz0/edit?usp=sharing"
+          target="__blank"
+        >
+          <button className={`${styles.resumeBtn} ${styles.styledBtn}`}>
+            See Full Resume
+          </button>
+        </Link>
       </section>
     </section>
   );
