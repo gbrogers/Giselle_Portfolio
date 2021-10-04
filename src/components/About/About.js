@@ -24,8 +24,8 @@ export default function About() {
             ultimate frisbee, flip-flop tennis, and spending time at our family
             cabin in Northern Minnesota playing way-too-competitive card games.
             I love puzzle games, especially Suduko. I used to like doing big
-            puzzles with my coffee in the morning... but now my cat eats the
-            pieces and makes that tricky. <br></br>
+            jigsaw puzzles with my coffee in the morning... but now my cat eats
+            the pieces and makes that tricky. <br></br>
             <br></br>I have always been extremely passionate about empowering
             women and non-binary persons in all aspects of life, and now
             especially within the tech industry.
