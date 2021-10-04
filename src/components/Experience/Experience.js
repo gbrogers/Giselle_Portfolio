@@ -95,7 +95,7 @@ export default function Experience() {
           </ul>
         </section>
         <Link
-          to="https://docs.google.com/document/d/1mOj6jcAJPKiGVtMR8Jsn_2Z6y_5mVzF9bxbC_yJjMz0/edit"
+          to="https://docs.google.com/document/d/1mOj6jcAJPKiGVtMR8Jsn_2Z6y_5mVzF9bxbC_yJjMz0/edit?usp=sharing"
           target="__blank"
         >
           <button className={`${styles.resumeBtn} ${styles.styledBtn}`}>

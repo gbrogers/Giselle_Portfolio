@@ -1,8 +1,9 @@
 @import "../../style.scss";
 .footerContainer {
   background-color: $light-purple;
-  margin-top: 20px;
-  padding: 30px;
+  margin-top: 10px;
+  padding: 50px 30px;
+  height: 80vh;
 }
 .contactContainer {
   display: flex;

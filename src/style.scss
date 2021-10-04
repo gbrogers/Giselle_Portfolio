@@ -27,4 +27,10 @@ $body-font: "Nunito", sans-serif;
 
 html {
   scroll-behavior: smooth;
+  // scroll-margin: -100px;
+}
+
+.filler {
+  height: 5vh;
+  background-color: purple;
 }

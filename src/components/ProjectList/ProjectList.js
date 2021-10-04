@@ -3,7 +3,7 @@ import * as styles from "./ProjectList.module.scss";
 import { StaticQuery, graphql } from "gatsby";
 import SingleProject from "../SingleProject/SingleProject";
 
-export default function ProjectList() {
+export default () => (
   <StaticQuery
     query={graphql`
       query MyQuery {
@@ -23,7 +23,7 @@ export default function ProjectList() {
     `}
     render={data => (
       <div className="projectPageContainer">
-        {data.allMarkdown.edges.map(({ node }) => {
+        {data.allMarkdownRemark.edges.map(({ node }) => {
           return (
             <SingleProject
               description={node.frontmatter.description}
@@ -35,5 +35,5 @@ export default function ProjectList() {
         })}
       </div>
     )}
-  />;
-}
+  />
+);

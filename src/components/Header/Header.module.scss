@@ -4,9 +4,17 @@ h1 {
   text-align: center;
   margin: 10px 0;
 }
+.scrollHere {
+  border: 3px solid black;
+  height: 20px;
+  width: 100%;
+}
 .headerContainer {
   //add background image
   background-image: url(../../images/header-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   // background-color: $main-purple;
   // background-image: linear-gradient(to top left, $main-purple, $light-purple);
   margin: 0;
