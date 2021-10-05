@@ -1,13 +1,4 @@
-// $main-purple: #1e051e;
-// // $main-purple: #491738;
-// $main-purple-header: #1e051e93;
-// $light-purple-1: #f7e8fd;
-// $light-purple-2: #e0d1e4;
-// $light-purple-3: #fdf4ff;
-// $light-purple-4: #efe3f1;
-// $light-purple: #e3d8e7;
 $main-purple: #000000;
-// $main-purple: #491738;
 $main-purple-header: #1e051e93;
 $light-purple-1: #eeeeee;
 $light-purple-2: #e0e0e0;
@@ -25,9 +16,6 @@ $body-font: "Nunito", sans-serif;
   cursor: pointer;
   transition: 0.5s;
 }
-// .styledBtn:hover {
-//   background-color: rgba(255, 255, 255, 0.397);
-// }
 .styledBtn:hover,
 .styledBtn:focus {
   box-shadow: inset 8em 0 0 0 black;
@@ -36,5 +24,4 @@ $body-font: "Nunito", sans-serif;
 
 html {
   scroll-behavior: smooth;
-  // scroll-margin: -100px;
 }

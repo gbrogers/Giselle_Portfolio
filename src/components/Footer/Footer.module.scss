@@ -1,11 +1,9 @@
 @import "../../style.scss";
 .footerContainer {
-  // background-color: $light-purple;
   background-image: url("../../images/footerBlob.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  // transform: rotate(180deg);
   margin-top: 10px;
   padding: 50px 30px;
   h2 {
@@ -15,7 +13,6 @@
 .contactContainer {
   display: flex;
   flex-direction: column;
-  // justify-content: space-between;
   padding: 15px 0;
   border-top: 2px black solid;
   padding-top: 25px;
@@ -39,11 +36,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // align-items: center;
 }
 .singleContactItem {
   display: flex;
-  // flex-direction: column;
   align-items: center;
   margin: 15px 0;
   .contactIcon {
@@ -64,11 +59,7 @@
   flex-direction: column;
   flex-grow: 2;
   max-width: 500px;
-  // align-items: center;
-  // padding: 20px;
-  // align-items: flex-start;
-  // width: 50%;
-  // min-width: 300px;
+  margin: 0 auto;
   h2 {
     align-self: center;
     margin: 0;
@@ -82,7 +73,6 @@
 }
 .nameEmail {
   display: flex;
-  // justify-content: space-between;
   width: 95%;
   input {
     width: 75%;
@@ -146,5 +136,8 @@
     border-top: none;
     padding-top: 0;
     margin-top: 75px;
+  }
+  .contactForm {
+    margin: 0;
   }
 }

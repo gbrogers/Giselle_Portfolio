@@ -4,10 +4,7 @@ h2 {
   font-size: 38px;
 }
 .educationContentContainer {
-  background-image: url("../../images/pink.svg");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
+  background-image: linear-gradient(#fdd0df, #fea1a9);
   margin: 5px;
   padding: 20px;
   display: flex;
@@ -51,7 +48,6 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    // justify-content: flex-start;
     p {
       width: 200px;
     }

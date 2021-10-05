@@ -6,17 +6,10 @@ h1 {
 }
 
 .headerContainer {
-  //add background image
-  // background-image: url(../../images/header-background_black.jpg);
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position: center;
-  // background-color: $main-purple;
   background-image: url("../../images/headerBlob.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  // background-image: linear-gradient(to top left, black, #b17acc);
   margin: 0;
   height: 100vh;
   background-repeat: no-repeat;
@@ -25,24 +18,15 @@ h1 {
   align-items: center;
   position: relative;
 }
-// .headerContainer::after {
-//   // background-color: $main-purple-header;
-//   width: 100%;
-//   height: 100%;
-//   position: absolute;
-// }
 .headerContentContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100vw;
   justify-content: center;
-  // background-color: $light-purple-nav;
   padding: 0 auto;
-  // color: white;
 }
 .headerWordsContainer {
-  // color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,12 +55,10 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    // align-items;
     h1 {
       margin-top: 0;
     }
     p {
-      //   margin-top: 0;
       text-align: left;
     }
   }

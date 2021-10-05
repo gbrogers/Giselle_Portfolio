@@ -5,11 +5,7 @@ h2 {
 }
 
 .projectsContentContainer {
-  background-image: url("../../images/yellow.svg");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  // background-color: $light-purple-3;
+  background-image: linear-gradient(#ffea8fc2, #feb6a0af);
   margin: 5px;
   padding: 20px;
   display: flex;
@@ -17,17 +13,12 @@ h2 {
   align-items: center;
 }
 
-.projectsContentContainer:hover {
-  // border: 2px dotted $main-purple;
-}
 .projectHeader {
   color: $main-purple;
 }
 .projectPlaceholder {
   width: 300px;
   min-width: 250px;
-  // height: 175px;
-  // background-color: rgb(178, 175, 214);
   margin: 20px;
   box-shadow: 2px 2px 4px rgb(161, 161, 161);
   transition: 1s;
@@ -94,8 +85,5 @@ h2 {
     p {
       text-align: right;
     }
-  }
-  .projectsContentContainer {
-    // max-width: 40%;
   }
 }

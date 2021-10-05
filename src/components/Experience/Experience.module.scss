@@ -3,13 +3,9 @@
 h2 {
   font-size: 38px;
 }
-
 .experienceContentContainer {
-  background-image: url("../../images/purplepink.svg");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  // background-color: $light-purple-3;
+  background-image: linear-gradient(#957ae1b9, #fcc5ccbd);
+
   margin: 5px;
   padding: 20px 50px;
   display: flex;
@@ -25,9 +21,6 @@ h2 {
   }
 }
 
-.experienceContentContainer:hover {
-  // border: 2px dotted $main-purple;
-}
 .experienceHeader {
   color: $main-purple;
 }
@@ -57,17 +50,4 @@ h2 {
   padding: 0;
   font-weight: 700;
   cursor: pointer;
-}
-
-@media screen and (min-width: 778px) {
-  .experienceContentContainer {
-    // margin-top: 0;
-    // margin-bottom: 0;
-    // margin-right: 0;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .experienceContentContainer {
-    // margin-right: 20px;
-  }
 }

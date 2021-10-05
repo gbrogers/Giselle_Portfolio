@@ -15,10 +15,7 @@ export default function Header() {
           ></StaticImage>
           <div className={styles.headerWordsContainer}>
             <h1>Giselle Rogers</h1>
-            <p>
-              {/* Software Developer based out of Salt Lake City, UT.  */}
-              Full Stack Software Developer and Passionate Problem Solver
-            </p>
+            <p>Full Stack Software Developer and Passionate Problem Solver</p>
             <a href="#AboutMe">
               <button className={styles.styledBtn}>Learn More</button>
             </a>

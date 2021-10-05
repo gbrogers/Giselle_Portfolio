@@ -1,26 +1,22 @@
 @import "../../style.scss";
 
 .projectPageContainer {
-  padding: 70px 0 0 0;
+  padding: 70px 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .projectHeader {
   color: $main-purple;
   text-align: center;
-  // font-size: 40px;
 }
 .projectTitle {
-  // text-align: center;
   margin: 10px 0 15px 0;
 }
 .singleProjectPageContainer {
-  // background-color: $light-purple-1;
-  background-image: url("../../images/singleProjectBlob.svg");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  margin: 20px;
-  padding: 30px;
-  // border: 2px dotted $main-purple;
+  background-image: linear-gradient(#ffea8f, #feb6a0);
+  margin: 10px 20px;
+  padding: 40px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,20 +24,16 @@
 }
 .projectPhoto {
   min-width: 300px;
-  // margin-top: 20px;
   box-shadow: 2px 2px 4px rgb(161, 161, 161);
   img {
     object-fit: contain !important;
   }
 }
 .singleProjectLabel {
-  // background-color: rgba(255, 255, 255, 0.219);
-  padding: 0 20px;
+  // padding: 0 20px;
   margin: 0 20px;
-  max-width: 70%;
+  max-width: 700px;
   text-align: center;
-  // display: flex;
-  // flex-direction: column;
 }
 .projectLinks a {
   text-decoration: none;
@@ -58,14 +50,22 @@
   color: white;
 }
 .projectLinks {
-  padding: 15px 0;
+  // padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (min-width: 900px) {
   .singleProjectPageContainer {
     flex-direction: row;
     justify-content: center;
+    padding: 40px;
   }
   .singleProjectLabel {
-    text-align: justify;
+    text-align: left;
+    margin-left: 40px;
+  }
+  .projectLinks {
+    justify-content: flex-start;
   }
 }

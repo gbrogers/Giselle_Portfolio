@@ -31,7 +31,7 @@ export default function Nav() {
         <Link to="/Projects" onClick={() => setNavbarOpen(!navbarOpen)}>
           Projects
         </Link>
-        <Link to="/" onClick={() => setNavbarOpen(!navbarOpen)}>
+        <Link to="/Contact" onClick={() => setNavbarOpen(!navbarOpen)}>
           Contact
         </Link>
       </div>
