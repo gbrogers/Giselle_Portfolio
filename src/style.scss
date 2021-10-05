@@ -1,11 +1,19 @@
-$main-purple: #1e051e;
+// $main-purple: #1e051e;
+// // $main-purple: #491738;
+// $main-purple-header: #1e051e93;
+// $light-purple-1: #f7e8fd;
+// $light-purple-2: #e0d1e4;
+// $light-purple-3: #fdf4ff;
+// $light-purple-4: #efe3f1;
+// $light-purple: #e3d8e7;
+$main-purple: #000000;
 // $main-purple: #491738;
 $main-purple-header: #1e051e93;
-$light-purple-1: #f7e8fd;
-$light-purple-2: #e0d1e4;
-$light-purple-3: #fdf4ff;
-$light-purple-4: #efe3f1;
-$light-purple: #e3d8e7;
+$light-purple-1: #eeeeee;
+$light-purple-2: #e0e0e0;
+$light-purple-3: #c2c2c2;
+$light-purple-4: #a1a1a1;
+$light-purple: #b8b8b8;
 $header-font: "Roboto", sans-serif;
 $body-font: "Nunito", sans-serif;
 
@@ -22,7 +30,8 @@ $body-font: "Nunito", sans-serif;
 // }
 .styledBtn:hover,
 .styledBtn:focus {
-  box-shadow: inset 8em 0 0 0 rgba(255, 255, 255, 0.397);
+  box-shadow: inset 8em 0 0 0 black;
+  color: white;
 }
 
 html {

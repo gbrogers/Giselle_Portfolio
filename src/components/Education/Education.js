@@ -7,7 +7,7 @@ export default function Education() {
     <section className={styles.educationContentContainer}>
       <h2 className={styles.educationHeader}>Education</h2>
       <div className={styles.educationContainer}>
-        <section id="devm">
+        <section id="devm" className={styles.devmtn}>
           <StaticImage
             className={styles.educationLogo}
             src="../../images/devmountain.png"

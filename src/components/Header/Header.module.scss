@@ -4,19 +4,19 @@ h1 {
   text-align: center;
   margin: 10px 0;
 }
-.scrollHere {
-  border: 3px solid black;
-  height: 20px;
-  width: 100%;
-}
+
 .headerContainer {
   //add background image
-  background-image: url(../../images/header-background.jpg);
+  // background-image: url(../../images/header-background_black.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
+  // background-color: $main-purple;
+  background-image: url("../../images/6\ Flat\ Background\ Design\ Landing\ Page\ PNG\ SVG\ and\ Adobe\ XD.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  // background-color: $main-purple;
-  // background-image: linear-gradient(to top left, $main-purple, $light-purple);
+  // background-image: linear-gradient(to top left, black, #b17acc);
   margin: 0;
   height: 100vh;
   background-repeat: no-repeat;
@@ -24,10 +24,6 @@ h1 {
   display: flex;
   align-items: center;
   position: relative;
-  button {
-    color: white;
-    border-color: white;
-  }
 }
 // .headerContainer::after {
 //   // background-color: $main-purple-header;
@@ -43,7 +39,7 @@ h1 {
   justify-content: center;
   // background-color: $light-purple-nav;
   padding: 0 auto;
-  color: white;
+  // color: white;
 }
 .headerWordsContainer {
   // color: white;

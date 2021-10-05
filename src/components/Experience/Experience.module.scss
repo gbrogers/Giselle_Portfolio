@@ -5,11 +5,13 @@ h2 {
 }
 
 .experienceContentContainer {
-  border: 2px dotted $light-purple;
-  background-color: $light-purple-1;
-  margin: 10px;
-  padding: 20px 20px 30px 20px;
-  // padding: 20px;
+  background-image: url("../../images/purplepink.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  // background-color: $light-purple-3;
+  margin: 5px;
+  padding: 20px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +26,7 @@ h2 {
 }
 
 .experienceContentContainer:hover {
-  border: 2px dotted $main-purple;
+  // border: 2px dotted $main-purple;
 }
 .experienceHeader {
   color: $main-purple;

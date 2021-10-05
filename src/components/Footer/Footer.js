@@ -31,10 +31,7 @@ export default function Footer() {
             <textarea name="message" placeholder="enter message..."></textarea>
           </div>
 
-          <button
-            type="submit"
-            className={`${styles.submitFormBtn} ${styles.styledBtn}`}
-          >
+          <button type="submit" className={`${styles.submitFormBtn}`}>
             Send Message
           </button>
         </form>

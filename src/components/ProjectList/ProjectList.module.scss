@@ -13,10 +13,14 @@
   margin: 10px 0 15px 0;
 }
 .singleProjectPageContainer {
-  background-color: $light-purple-1;
+  // background-color: $light-purple-1;
+  background-image: url("../../images/singleProjectBlob.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
   margin: 20px;
   padding: 30px;
-  border: 2px dotted $main-purple;
+  // border: 2px dotted $main-purple;
   display: flex;
   flex-direction: column;
   align-items: center;

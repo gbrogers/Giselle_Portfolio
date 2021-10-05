@@ -12,16 +12,19 @@ h2 {
   padding: 10px;
 }
 .aboutContentContainer {
-  border: 2px dotted $light-purple;
-  margin: 10px;
+  background-image: url("../../images/blue.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  // background-color: $light-purple-3;
+  margin: 5px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: $light-purple-1;
 }
 .aboutContentContainer:hover {
-  border: 2px dotted $main-purple;
+  // border: 2px dotted $main-purple;
 }
 .aboutContentContainer p {
   text-align: center;
@@ -33,6 +36,10 @@ h2 {
   color: $main-purple;
 }
 .experienceEducation {
+  display: flex;
+  flex-direction: column;
+}
+.aboutExperience {
   display: flex;
   flex-direction: column;
 }
@@ -49,7 +56,7 @@ h2 {
     flex-direction: row;
   }
   .aboutContentContainer {
-    // margin-right: 0;
+    padding: 20px 50px;
   }
 }
 

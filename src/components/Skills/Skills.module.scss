@@ -18,17 +18,19 @@ h2 {
   justify-content: center;
 }
 .skillsContentContainer {
-  border: 2px dotted $light-purple;
-  background-color: $light-purple-2;
-  margin: 20px 10px;
-  padding: 20px;
+  background-image: url("../../images/bluepink.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  // background-color: $light-purple-3;
+  margin: 5px;
+  padding: 20px 50px 60px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  //   max-width: 700px;
 }
 .skillsContentContainer:hover {
-  border: 2px dotted $main-purple;
+  // border: 2px dotted $main-purple;
 }
 .skillsHeader {
   //   text-align: center;

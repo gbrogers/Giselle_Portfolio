@@ -1,6 +1,11 @@
 @import "../../style.scss";
 .footerContainer {
-  background-color: $light-purple;
+  // background-color: $light-purple;
+  background-image: url("../../images/6\ Flat\ Background\ Design\ Landing\ Page\ PNG\ SVG\ and\ Adobe\ XD.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  // transform: rotate(180deg);
   margin-top: 10px;
   padding: 50px 30px;
   h2 {
@@ -78,7 +83,7 @@
   width: 95%;
   input {
     width: 75%;
-    border: none;
+    border: 1px solid;
   }
   .singleInput {
     width: 50%;
@@ -94,9 +99,11 @@
     border-radius: 5px;
     font-size: 15px;
     padding: 10px;
-    border: none;
+    border: 1px solid;
+    background-color: transparent;
   }
   input {
+    background-color: transparent;
     border-radius: 5px;
     font-size: 15px;
     padding: 10px;
@@ -108,11 +115,17 @@
 }
 .submitFormBtn {
   margin-top: 15px;
+  border: 1px solid black;
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .submitFormBtn:hover,
 .submitFormBtn:focus {
-  box-shadow: inset 30em 0 0 0 $main-purple;
+  background-color: black;
   color: white;
 }
 
