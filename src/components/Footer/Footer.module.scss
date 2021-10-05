@@ -1,7 +1,7 @@
 @import "../../style.scss";
 .footerContainer {
   // background-color: $light-purple;
-  background-image: url("../../images/6\ Flat\ Background\ Design\ Landing\ Page\ PNG\ SVG\ and\ Adobe\ XD.jpg");
+  background-image: url("../../images/footerBlob.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -62,6 +62,9 @@
 .contactForm {
   display: flex;
   flex-direction: column;
+  flex-grow: 2;
+  max-width: 500px;
+  // align-items: center;
   // padding: 20px;
   // align-items: flex-start;
   // width: 50%;

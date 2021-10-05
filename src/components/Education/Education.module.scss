@@ -48,6 +48,10 @@ h2 {
   flex-direction: column;
   section {
     margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: flex-start;
     p {
       width: 200px;
     }
@@ -57,7 +61,7 @@ h2 {
 @media screen and (min-width: 778px) {
   .educationContainer {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
   }
 }
 
