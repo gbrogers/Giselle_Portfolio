@@ -20,8 +20,11 @@ export default function ProjectPreview() {
           <div className={styles.projectLabel}>
             <h3>My Body My Health</h3>
             <p>
-              Assists users in tracking menstruation and contraceptive use, as
-              well as generates verified health resources.
+              Feeling like your uterus complicates everything? My Body My Health
+              has your back by assisting you in tracking your menstruation and
+              contraceptive use, as well as generating verified health resources
+              so you can focus on continuing to advocate for your health and
+              wellbeing.
             </p>
             <Link to="/Projects">
               <button
@@ -43,7 +46,12 @@ export default function ProjectPreview() {
           ></StaticImage>
           <div className={`${styles.projectLabel} ${styles.secondProject}`}>
             <h3>Drinkz!</h3>
-            <p>Generates drink recipes based on user inputted data.</p>
+            <p>
+              Left over alcohol from a failed cocktail attempt? Heard of a
+              cocktail that you'd love to make but don't have the recipe? Have a
+              cool class you'd love to make a cocktail in? Feeling gutsy and
+              wanting to try something new? Try Drinkz!
+            </p>
             <Link to="/Projects">
               <button
                 className={`${styles.projectSeeMoreBtn} ${styles.styledBtn}`}
@@ -63,10 +71,10 @@ export default function ProjectPreview() {
             placeholder="blurred"
           ></StaticImage>
           <div className={styles.projectLabel}>
-            <h3>Quizzies</h3>
+            <h3>Quizzies!</h3>
             <p>
-              Generates quiz questions based on user inputted difficulty,
-              category, and length.
+              Always the worst person on your trivia team? Fear not! - Practice
+              up with Quizzies!
             </p>
             <Link to="/Projects">
               <button

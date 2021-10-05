@@ -16,8 +16,8 @@ export default function Header() {
           <div className={styles.headerWordsContainer}>
             <h1>Giselle Rogers</h1>
             <p>
-              I am a Web Developer based out of Salt Lake City, UT who is eager
-              to bring your next project to life.
+              {/* Software Developer based out of Salt Lake City, UT.  */}
+              Full Stack Software Developer and Passionate Problem Solver
             </p>
             <a href="#AboutMe">
               <button className={styles.styledBtn}>Learn More</button>
