@@ -12,6 +12,7 @@ export default function Education() {
             className={styles.educationLogo}
             src="../../images/devmountain.png"
             alt="devmountain logo"
+            placeholder="blurred"
           ></StaticImage>
           <h3>Devmountain</h3>
           <h4>
@@ -24,6 +25,7 @@ export default function Education() {
             className={styles.educationLogo}
             src="../../images/uwm.png"
             alt="Badgers logo"
+            placeholder="blurred"
           ></StaticImage>
           <h3>University of Wisconsin - Madison</h3>
           <h4>

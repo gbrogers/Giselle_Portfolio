@@ -12,6 +12,7 @@ export default function Header() {
             src="../../images/profilePic.JPG"
             alt="profile photo"
             loading="eager"
+            placeholder="blurred"
           ></StaticImage>
           <div className={styles.headerWordsContainer}>
             <h1>Giselle Rogers</h1>
