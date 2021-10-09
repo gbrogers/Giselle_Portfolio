@@ -48,8 +48,8 @@ export default function ProjectPreview() {
             <h3>Drinkz!</h3>
             <p>
               Left over alcohol from a failed cocktail attempt? Heard of a
-              cocktail that you'd love to make but don't have the recipe? Have a
-              cool class you'd love to make a cocktail in? Feeling gutsy and
+              cocktail that you'd love to make, but don't have the recipe? Have
+              a cool glass you'd love to make a cocktail in? Feeling gutsy and
               wanting to try something new? Try Drinkz!
             </p>
             <Link to="/Projects">
